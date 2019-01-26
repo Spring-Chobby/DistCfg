@@ -1,0 +1,34 @@
+{
+  "title" : "Chobby",
+  "setups" : [
+    {
+      "package": {
+        "id": "latest",
+        "display": "Latest"
+      },
+      "downloads": {
+        "games" : ["chobby:test"],
+        "engines" : [ "104.0.1-964-g0e56068 maintenance" ]
+      },
+      "no_start_script" : true,
+      "launch": {
+        "start_args": ["--menu", "rapid://chobby:test"]
+      }
+    },
+    {
+      "package": {
+        "id": "develop",
+        "display": "Develop"
+      },
+      "downloads": {
+        "games" : [],
+        "engines" : [ "104.0.1-964-g0e56068 maintenance" ]
+      },
+      "no_start_script" : true,
+      "launch": {
+        "start_args": ["--menu", "Chobby $VERSION"]
+      }
+    }
+  ]
+
+}
