@@ -1,18 +1,25 @@
 {
-  "title" : "Chobby",
-  "setups" : [
+  "title": "Chobby",
+  "setups": [
     {
       "package": {
         "id": "latest",
         "display": "Latest"
       },
       "downloads": {
-        "games" : ["chobby:test"],
-        "engines" : [ "104.0.1-1429-g1add37c maintenance" ]
+        "games": [
+          "chobby:test"
+        ],
+        "engines": [
+          "104.0.1-1429-g1add37c maintenance"
+        ]
       },
-      "no_start_script" : true,
+      "no_start_script": true,
       "launch": {
-        "start_args": ["--menu", "rapid://chobby:test"]
+        "start_args": [
+          "--menu",
+          "rapid://chobby:test"
+        ]
       }
     },
     {
@@ -21,13 +28,18 @@
         "display": "Develop"
       },
       "downloads": {
-        "games" : [],
-        "engines" : [ "104.0.1-1429-g1add37c maintenance" ]
+        "games": [],
+        "engines": [
+          "104.0.1-1429-g1add37c maintenance"
+        ]
       },
-      "no_start_script" : true,
-      "no_downloads" : true,
+      "no_start_script": true,
+      "no_downloads": true,
       "launch": {
-        "start_args": ["--menu", "Chobby $VERSION"]
+        "start_args": [
+          "--menu",
+          "Chobby $VERSION"
+        ]
       }
     }
   ]
